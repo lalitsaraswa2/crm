@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/lalitsaraswa2/crm_frontend.git",
   "name": "cmr-ui",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
@@ -15,6 +17,7 @@
     "antd-phone-input": "^0.3.13",
     "axios": "^1.8.4",
     "classnames": "^2.5.1",
+    "gh-pages": "^6.3.0",
     "loadash": "^1.0.0",
     "lodash": "^4.17.21",
     "moment": "^2.30.1",
